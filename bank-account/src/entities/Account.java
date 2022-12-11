@@ -60,15 +60,11 @@ public class Account {
 	}
 	// Account Data
 	public void getData() {
-<<<<<<< HEAD
 		System.out.printf("%n------------%nAccount data:%n Number: %d%n   Name: %s%nBalance: %.2f USD%nUpdate: %s%n------------%n", getNumber(), getHolder(), getBalance(),getLastUpdate().toString());
 	}
 	// Check password
 	public boolean checkPassword(String password) {
 		return this.password.equals(password) ? true : false;
-=======
-		System.out.printf("%n------------%nAccount data:%n Number: %d%n   Name: %s%nBalance: %.2f USD%n", getNumber(), getHolder(), getBalance());
->>>>>>> parent of 22f8ab9 (Simpler code.)
 	}
 	
 }
